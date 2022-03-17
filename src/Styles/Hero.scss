@@ -1,0 +1,49 @@
+@import "../Styles/Main.scss";
+
+.hero {
+    min-height: 70vh;
+    background-color: $dark;
+    position: relative;
+
+    .inner-content {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        z-index: 5;
+        background-color: rgba(0, 0, 0, 0.6);
+        span {
+            display: block;
+            color: $orange;
+            margin: 0 0 10px 0;
+            text-transform: capitalize;
+            font-size: 1.1rem;
+        }
+        h1 {
+            text-transform: uppercase;
+            font-size: clamp(1.6rem, 5vw, 3.1rem);
+            font-weight: 800;
+        }
+        strong {
+            text-transform: capitalize;
+            display: block;
+            margin: 0 0 10px 0;
+            font-size: clamp(1rem, 5vw, 1.4rem);
+        }
+        p {
+            letter-spacing: 1px;
+        }
+    }
+    .img-box {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

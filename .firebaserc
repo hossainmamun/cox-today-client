@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "global-authentication-system"
+  },
+  "targets": {
+    "global-authentication-system": {
+      "hosting": {
+        "coxToday": [
+          "hotel-cox-today"
+        ]
+      }
+    }
+  }
+}

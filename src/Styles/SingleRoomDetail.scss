@@ -1,0 +1,52 @@
+@import '../Styles/Main.scss';
+
+.single-room-detail{
+    .contact-section{
+        background-color: #EFEFF0;
+        box-sizing: border-box;
+        padding: 20px;
+
+        h3{
+            text-transform: capitalize;
+            font-size: clamp(1.1rem, 5vw, 1.5rem);
+            font-weight: 600;
+        }
+
+        .flex-section{
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            margin: 20px 0;
+
+            i{
+                margin-right: 20px;
+                display: inline-block;
+            }
+            span{
+                display: block;
+            }
+        }
+    }
+
+    .offer{
+        background-color: $orange;
+        padding: 40px 0;
+        .circle{
+            text-transform: capitalize;
+            background-color: #000;
+            color: #fff;
+            width: 70%;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px auto;
+            padding: 20px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+}
+    }
+}

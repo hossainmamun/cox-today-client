@@ -1,0 +1,50 @@
+@import "../Styles/Main.scss";
+.navigation {
+    .navbar {
+        background-color: $ultraDark;
+        padding: 20px;
+        text-align: center;
+    }
+    .navbar-brand {
+        color: #fff;
+        font-size: clamp(1.2rem, 6vw, 1.7rem);
+        font-weight: 600;
+        font-family: "Redressed", cursive;
+        text-transform: uppercase;
+        span {
+            color: $orange;
+            font-family: "Redressed", cursive;
+            text-transform: uppercase;
+        }
+    }
+    .nav-item{
+        display: flex;
+        align-items: center;
+    }
+    .nav-link{
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #fff;
+        margin: 0 8px;
+        display: inline-block;
+        letter-spacing: 1px;
+    }
+    .btn{
+        background-color: transparent;
+        color: $orange;
+        border: 1px solid $orange;
+        margin: 0 0 0 10px;
+        font-family: "Roboto Serif", sans-serif;
+        text-transform: uppercase;
+        &:hover{
+            background-color: $orange;
+            border: 1px solid $orange;
+            color: $dark;
+        }
+    }
+    .fa-bars{
+        color: $orange;
+        font-size: 26px;
+    }
+}

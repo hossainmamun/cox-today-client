@@ -1,0 +1,73 @@
+@import "../Styles/Main.scss";
+
+.footer {
+    text-align: center;
+    padding: 60px 0;
+    background-color: $ultraDark;
+    color: #fff;
+    margin: 100px 0 0 0;
+
+    h2 {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: "Redressed", cursive !important;
+        margin: 0 0 20px 0;
+        span {
+            font-family: "Redressed", cursive !important;
+            color: $orange;
+        }
+    }
+    p {
+        max-width: 60%;
+        margin: 10px auto;
+        font-size: 1.1rem;
+    }
+
+    .icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            text-decoration: none;
+            display: inline-block;
+            border: 1px solid $orange;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 10px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            transition: 0.4s ease-in-out;
+            -webkit-transition: 0.4s ease-in-out;
+            -moz-transition: 0.4s ease-in-out;
+            -ms-transition: 0.4s ease-in-out;
+            -o-transition: 0.4s ease-in-out;
+            &:hover {
+                background-color: $orange;
+            }
+            &:hover i {
+                color: $dark;
+            }
+            i {
+                font-size: 24px;
+                color: $orange;
+            }
+        }
+    }
+    .copy-right{
+        p{
+            font-weight: 200;
+            text-transform: capitalize;
+            font-size: .9rem;
+            margin-top: 20px;
+        }
+        span{
+            color: $orange;
+        }
+    }
+}

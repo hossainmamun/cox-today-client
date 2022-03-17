@@ -1,0 +1,43 @@
+@import '../Styles/Main.scss';
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    .left-side{
+        i{
+            display: inline-block;
+            margin: 0 10px 0 0;
+            font-size: 20px;
+            color: $ultraDark;
+        }
+        p{
+            margin: 10px 0 0 0;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        span{
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+    .btn-container{
+        .log-reg{
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 15px;
+            color: $ultraDark;
+            display: inline-block;
+            margin: 0 0 0 12px;
+        }
+    }
+}
+
+@media(max-width: '767px'){
+    .top-header{
+        .left-side{
+            display: none;
+        }
+    }
+}

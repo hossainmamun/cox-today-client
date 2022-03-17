@@ -1,0 +1,39 @@
+@import '../Styles/Main.scss';
+
+.about-us{
+    margin: 100px 0 0 0;
+    h2{
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: clamp(1.3rem, 5vw, 2.5rem);
+        span{
+            color: $orange;
+        }
+    }
+    strong{
+        margin: 15px 0;
+        display: block;
+        font-size: clamp(1.1rem, 5vw, 1.3rem);
+        color: $gray;
+    }
+    p{
+        color: $gray;
+        letter-spacing: .5;
+    }
+    .unorder-list{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        i{
+            display: inline-block;
+            color: $orange;
+            margin: 0 10px 0 0;
+        }
+        span{
+            display: inline-block;
+            color: $gray;
+            font-family: "Roboto", sans-serif !important;
+        }
+    }
+}

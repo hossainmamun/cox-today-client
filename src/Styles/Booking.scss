@@ -1,0 +1,109 @@
+@import "../Styles/Main.scss";
+
+.booking {
+    .booking-header {
+        .booking-hero {
+            background: url("../images/booking-cover.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 300px;
+
+            .overlay {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                left: 0;
+                background-color: rgba(0, 0, 0, 0.6);
+                text-align: center;
+
+                h2 {
+                    text-transform: uppercase;
+                    font-weight: 800;
+                    font-size: clamp(1.2rem, 5vw, 2.5rem);
+                    margin: 0 0 0 0;
+                    color: #fff;
+                }
+                p {
+                    margin: 10px 0 0 0;
+                    color: #fff;
+                    text-transform: capitalize;
+                    font-size: clamp(1.2rem, 5vw, 1.4rem);
+                    font-weight: 200;
+                }
+            }
+        }
+    }
+    // ! reservation form
+    .reservation-form {
+        margin: 100px auto;
+
+        h2 {
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: clamp(1.2rem, 5vw, 2.5rem);
+            margin: 0 0 0 0;
+            color: $darkGray;
+            text-align: center;
+            margin: 10px 0 30px 0;
+        }
+
+        .form {
+            .form-control {
+                padding: 12px;
+                border: 1px solid rgb(211, 204, 204);
+                text-transform: capitalize;
+                border-radius: 0;
+                -webkit-border-radius: 0;
+                -moz-border-radius: 0;
+                -ms-border-radius: 0;
+                -o-border-radius: 0;
+            }
+
+            .general-btn,
+            .special-btn {
+                padding: 14px 25px 12px 25px;
+                border: 1px solid black;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+                margin-right: 20px;
+                border-radius: 0;
+                -webkit-border-radius: 0;
+                -moz-border-radius: 0;
+                -ms-border-radius: 0;
+                -o-border-radius: 0;
+            }
+            .general-btn {
+                background-color: $ultraDark;
+                color: #fff;
+                &:hover {
+                    background-color: transparent;
+                    color: #000;
+                }
+            }
+            .special-btn {
+                &:hover {
+                    background-color: $ultraDark;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    // ! how to reservation
+    .how-to-reserve{
+        
+        .info{
+            padding: 80px 0;
+            background-color: aquamarine;
+        }
+        .contact{
+            margin: 0 auto;
+            padding: 80px 0;
+            background-color: rgb(27, 75, 59);
+        }
+    }
+}

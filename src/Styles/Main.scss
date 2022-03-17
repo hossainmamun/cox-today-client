@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+$orange: #ffea00;
+$dark: #000000;
+$dark_Nablus: #14213d;
+$greenest: #1a7431;
+$ultraDark: #011627;
+$deepOrange: #fca311;
+$gray: #808285;
+$darkGray: #2c2d30;
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    font-family: "Redressed", cursive;
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    font-family: "Roboto Serif", sans-serif;
+}
+
+.default-btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 20px 10px 20px;
+    background-color: $orange;
+    color: $dark;
+    font-weight: 500;
+    font-family: "Roboto Serif", sans-serif;
+    &:hover {
+        background-color: transparent;
+        color: $orange;
+        border: 1px solid $orange;
+    }
+}
+
+// common all section heading part
+.common-heading {
+    margin: 100px 0 0 0;
+    .heading {
+        h2 {
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: clamp(1.2rem, 5vw, 2.1rem);
+            margin: 0 0 0 0;
+            span{
+                color: $orange;
+            }
+        }
+        h5{
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: clamp(1.1rem, 5vw, 1.2rem);
+        }
+    }
+}
